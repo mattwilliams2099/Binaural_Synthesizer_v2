@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="nej7eR" name="Binaural_Synthesizer_v2" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="uEl27K" name="Binaural_Synthesizer_v2">
+    <GROUP id="{7A12CEF9-C4CE-6B78-9479-77039AA49074}" name="Source">
+      <FILE id="WFZenG" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="JZ0gTe" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="wI14gy" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Jm30A5" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="X9VU3x" name="ADSR.cpp" compile="1" resource="0" file="Source/ADSR.cpp"/>
+      <FILE id="d4Nr3D" name="ADSR.h" compile="0" resource="0" file="Source/ADSR.h"/>
+      <FILE id="fEpjqC" name="Binaural.cpp" compile="1" resource="0" file="Source/Binaural.cpp"/>
+      <FILE id="mSe95W" name="Binaural.h" compile="0" resource="0" file="Source/Binaural.h"/>
+      <FILE id="yQ16OZ" name="BinauralSynth.cpp" compile="1" resource="0"
+            file="Source/BinauralSynth.cpp"/>
+      <FILE id="uGCKcN" name="BinauralSynth.h" compile="0" resource="0" file="Source/BinauralSynth.h"/>
+      <FILE id="ZMzjgg" name="DelayLine.cpp" compile="1" resource="0" file="Source/DelayLine.cpp"/>
+      <FILE id="TnB208" name="DelayLine.h" compile="0" resource="0" file="Source/DelayLine.h"/>
+      <FILE id="q8qzCc" name="Filter.cpp" compile="1" resource="0" file="Source/Filter.cpp"/>
+      <FILE id="rZJ00u" name="Filter.h" compile="0" resource="0" file="Source/Filter.h"/>
+      <FILE id="L4DwcK" name="highBandAmplitudes_left.txt" compile="0" resource="1"
+            file="Source/highBandAmplitudes_left.txt"/>
+      <FILE id="j7TnHz" name="highBandAmplitudes_right.txt" compile="0" resource="1"
+            file="Source/highBandAmplitudes_right.txt"/>
+      <FILE id="Op5by8" name="ILD.cpp" compile="1" resource="0" file="Source/ILD.cpp"/>
+      <FILE id="fsdLCj" name="ILD.h" compile="0" resource="0" file="Source/ILD.h"/>
+      <FILE id="hqsgvV" name="ITD.cpp" compile="1" resource="0" file="Source/ITD.cpp"/>
+      <FILE id="rbsXTh" name="ITD.h" compile="0" resource="0" file="Source/ITD.h"/>
+      <FILE id="DydP3N" name="LFO.cpp" compile="1" resource="0" file="Source/LFO.cpp"/>
+      <FILE id="GC3lu2" name="LFO.h" compile="0" resource="0" file="Source/LFO.h"/>
+      <FILE id="jKrEO5" name="lowBandAmplitudes_left.txt" compile="0" resource="1"
+            file="Source/lowBandAmplitudes_left.txt"/>
+      <FILE id="lbYwpp" name="lowBandAmplitudes_right.txt" compile="0" resource="1"
+            file="Source/lowBandAmplitudes_right.txt"/>
+      <FILE id="H9qnp0" name="midBandAmplitudes_left.txt" compile="0" resource="1"
+            file="Source/midBandAmplitudes_left.txt"/>
+      <FILE id="DV09gi" name="midBandAmplitudes_right.txt" compile="0" resource="1"
+            file="Source/midBandAmplitudes_right.txt"/>
+      <FILE id="Y93pfX" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+      <FILE id="l8tXjy" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+      <FILE id="lopCFd" name="SettingsRectangle.cpp" compile="1" resource="0"
+            file="Source/SettingsRectangle.cpp"/>
+      <FILE id="VeubJD" name="SettingsRectangle.h" compile="0" resource="0"
+            file="Source/SettingsRectangle.h"/>
+      <FILE id="jdbGJk" name="subBandAmplitudes_left.txt" compile="0" resource="1"
+            file="Source/subBandAmplitudes_left.txt"/>
+      <FILE id="u53W2g" name="subBandAmplitudes_right.txt" compile="0" resource="1"
+            file="Source/subBandAmplitudes_right.txt"/>
+      <FILE id="fRea92" name="Voice.cpp" compile="1" resource="0" file="Source/Voice.cpp"/>
+      <FILE id="QukYXV" name="Voice.h" compile="0" resource="0" file="Source/Voice.h"/>
+      <FILE id="AW1sTa" name="x_coordinates.txt" compile="0" resource="1"
+            file="Source/x_coordinates.txt"/>
+      <FILE id="QjTMGW" name="y_coordinates.txt" compile="0" resource="1"
+            file="Source/y_coordinates.txt"/>
+      <FILE id="HaimF7" name="z_coordinates.txt" compile="0" resource="1"
+            file="Source/z_coordinates.txt"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Binaural_Synthesizer_v2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Binaural_Synthesizer_v2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Binaural_Synthesizer_v2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Binaural_Synthesizer_v2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Binaural_Synthesizer_v2"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Binaural_Synthesizer_v2"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../Masters/Audio Programming 2/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
