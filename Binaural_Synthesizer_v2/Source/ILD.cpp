@@ -90,14 +90,7 @@ void ILDClass::loadAmplitudeDatabase()
     loc[7] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\highBandAmplitudes_right.txt").getFullPathName().toStdString();
 
 
-    //amplitudesFile[0].open("C:\\Users\\Matthew Williams\\Documents\\JUCE Plugin Dev\\BinauralSynthesizer\\BinauralSynthesizer\\Source\\subBandAmplitudes_left.txt");
-    //amplitudesFile[1].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/subBandAmplitudes_right.txt");
-    //amplitudesFile[2].open("lowBandAmplitudes_left.txt");
-    //amplitudesFile[3].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/lowBandAmplitudes_right.txt");
-    //amplitudesFile[4].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/midBandAmplitudes_left.txt");
-    //amplitudesFile[5].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/midBandAmplitudes_right.txt");
-    //amplitudesFile[6].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/highBandAmplitudes_left.txt");
-    //amplitudesFile[7].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/highBandAmplitudes_right.txt");
+
 
     int m = 0;
     int t = 0;

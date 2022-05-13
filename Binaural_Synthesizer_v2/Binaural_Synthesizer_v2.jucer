@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="nej7eR" name="Binaural_Synthesizer_v2" projectType="audioplug"
-              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn">
   <MAINGROUP id="uEl27K" name="Binaural_Synthesizer_v2">
     <GROUP id="{7A12CEF9-C4CE-6B78-9479-77039AA49074}" name="Source">
       <FILE id="WFZenG" name="PluginProcessor.cpp" compile="1" resource="0"
