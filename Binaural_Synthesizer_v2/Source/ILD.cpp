@@ -80,14 +80,14 @@ void ILDClass::loadAmplitudeDatabase()
     //amplitudesFile[6].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/highBandAmplitudes_left.txt");
     //amplitudesFile[7].open("C:/Users/Matthew Williams/Documents/JUCE Plugin Dev/BinauralSynthesizer/BinauralSynthesizer/Source/highBandAmplitudes_right.txt");
     std::string loc[8];
-    loc[0] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/subBandAmplitudes_left.txt").getFullPathName().toStdString();
-    loc[1] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/subBandAmplitudes_right.txt").getFullPathName().toStdString();
-    loc[2] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/lowBandAmplitudes_left.txt").getFullPathName().toStdString();
-    loc[3] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/lowBandAmplitudes_right.txt").getFullPathName().toStdString();
-    loc[4] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/midBandAmplitudes_left.txt").getFullPathName().toStdString();
-    loc[5] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/midBandAmplitudes_right.txt").getFullPathName().toStdString();
-    loc[6] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/highBandAmplitudes_left.txt").getFullPathName().toStdString();
-    loc[7] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources/highBandAmplitudes_right.txt").getFullPathName().toStdString();
+    loc[0] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\subBandAmplitudes_left.txt").getFullPathName().toStdString();
+    loc[1] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\subBandAmplitudes_right.txt").getFullPathName().toStdString();
+    loc[2] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\lowBandAmplitudes_left.txt").getFullPathName().toStdString();
+    loc[3] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\lowBandAmplitudes_right.txt").getFullPathName().toStdString();
+    loc[4] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\midBandAmplitudes_left.txt").getFullPathName().toStdString();
+    loc[5] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\midBandAmplitudes_right.txt").getFullPathName().toStdString();
+    loc[6] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\highBandAmplitudes_left.txt").getFullPathName().toStdString();
+    loc[7] = juce::File::getSpecialLocation(juce::File::SpecialLocationType::userDesktopDirectory).getChildFile("Binaural_Synthesizer_Resources\\highBandAmplitudes_right.txt").getFullPathName().toStdString();
 
 
     //amplitudesFile[0].open("C:\\Users\\Matthew Williams\\Documents\\JUCE Plugin Dev\\BinauralSynthesizer\\BinauralSynthesizer\\Source\\subBandAmplitudes_left.txt");
